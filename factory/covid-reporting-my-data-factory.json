@@ -1,0 +1,9 @@
+{
+	"name": "covid-reporting-my-data-factory",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "27103025-d663-4506-bf87-0294b8401637",
+		"tenantId": "7e185ec6-ac86-4ef6-b3ab-f0e224a21cd6"
+	}
+}
