@@ -1887,13 +1887,6 @@
 							"type": "PipelineReference"
 						},
 						"parameters": {}
-					},
-					{
-						"pipelineReference": {
-							"referenceName": "pl_ingest_population_data",
-							"type": "PipelineReference"
-						},
-						"parameters": {}
 					}
 				],
 				"type": "BlobEventsTrigger",
@@ -1907,8 +1900,7 @@
 				}
 			},
 			"dependsOn": [
-				"[concat(variables('factoryId'), '/pipelines/pl_execute_population_pipelines')]",
-				"[concat(variables('factoryId'), '/pipelines/pl_ingest_population_data')]"
+				"[concat(variables('factoryId'), '/pipelines/pl_execute_population_pipelines')]"
 			]
 		},
 		{
